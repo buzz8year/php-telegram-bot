@@ -12,7 +12,7 @@
 
         <link href="css/style-white.css" rel="stylesheet" type="text/css"/>
 
-        <title>inmrkt.work</title>
+        <title>your.domain</title>
     </head>
 
     <body>
@@ -20,7 +20,7 @@
         <div class="wrap">
 
             <div class="title">
-                <h1>inmrkt.work</h1>
+                <h1>your.domain</h1>
             </div>
 
             <div class="idea">
@@ -30,7 +30,7 @@
             <div class="mail" id="mail">
                 <h2> 
                     <a href="mailto:info@inmrkt.work?subject=Informational Support" target="_blank">
-                        <span class="mail-to"> info @ inmrkt.work </span>
+                        <span class="mail-to"> info @ your.domain </span>
                         <input type="text" name="mail-from" class="mail-from" placeholder="Please, enter you e-mail..." />
                     </a>
                 </h2>
