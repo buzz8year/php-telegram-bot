@@ -2,6 +2,6 @@
     <img src="https://avatars0.githubusercontent.com/u/4325095" height="60px">
 </a>
 
-# php-telegram-bot
+# php-contact-telegram-bot
 
 Vanila PHP scripted tiny personal contact page amplified by Telegram bot implementation.
