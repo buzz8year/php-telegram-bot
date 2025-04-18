@@ -188,12 +188,12 @@ class Telegram
             case "show_offer":{
                     $offers = [];
 
-                    $req = $this->mysqli->query("SELECT * FROM `oc_product_special`");
+                    $req = $this->mysqli->query("SELECT * FROM `product_special`");
                     //$this->sendMessage($callback->message->chat->id, $req->num_rows, null);
 
                     while ($row = $req->fetch_assoc()) {
 
-                        $reqs = $this->mysqli->query("SELECT * FROM `oc_product` WHERE `product_id` = '" . $row["product_id"] . "'")->fetch_assoc();
+                        $reqs = $this->mysqli->query("SELECT * FROM `product` WHERE `product_id` = '" . $row["product_id"] . "'")->fetch_assoc();
                         $row  = array_merge($row, $reqs);
                         $find = false;
 
