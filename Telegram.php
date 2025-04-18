@@ -4,14 +4,14 @@ class Telegram
 {
     public $token;
     public $mysqli;
-    public $ocDomain;
+    public $domain;
 
 
-    public function __construct($mysqli, $ocDomain)
+    public function __construct($mysqli, $domain)
     {
         // $this->token    = $token;
         $this->mysqli   = $mysqli;
-        $this->ocDomain = $ocDomain;
+        $this->domain = $domain;
         $this->mysqli->set_charset('utf8');
     }
 
