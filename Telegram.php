@@ -34,7 +34,7 @@ class Telegram
         array_push(
             $array,
             [[
-                "text"          => "Главное меню",
+                "text"          => "Menu",
                 "callback_data" => json_encode([
                     "function" => "main_menu",
                 ]),
